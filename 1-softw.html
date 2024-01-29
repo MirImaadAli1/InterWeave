@@ -7,7 +7,7 @@
     <meta name="keywords" content="Deerhost, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact | InterWeave</title>
+    <title>Blog | InterWeave</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap"
@@ -38,7 +38,7 @@
             <span class="fa fa-times-circle-o"></span>
         </div>
         <div class="offcanvas__logo">
-            <a href="#"><img src="photos/logo-removebg.png" alt=""></a>
+            <a href="#"><img src="img/logo.png" alt=""></a>
         </div>
         <nav class="offcanvas__menu mobile-menu">
             <ul>
@@ -46,8 +46,8 @@
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./hosting.html">Portfolio</a></li>
                 <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li class="active"><a href="./contact.html">Contact</a></li>
+                <li class="active"><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
 <!--    <div id="mobile-menu-wrap"></div>
@@ -69,8 +69,8 @@
 
     <!-- Header Section Begin -->
     <header class="header-section header-normal">
-<!--    <div class="header__info">
-            <div class="container">
+        <div class="header__info">
+<!--        <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="header__info-left">
@@ -107,8 +107,8 @@
                             <li><a href="./about.html">About</a></li>
                             <li><a href="./hosting.html">Portfolio</a></li>
                             <li><a href="./pricing.html">Pricing</a></li>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li class="active"><a href="./contact.html">Contact</a></li>
+                            <li class="active"><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -127,7 +127,7 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb__option">
                         <a href="./index.html"><span class="fa fa-home"></span> Home</a>
-                        <span>Contact</span>
+                        <span>Blog Posts</span>
                     </div>
                 </div>
             </div>
@@ -135,71 +135,155 @@
     </div>
     <!-- Breadcrumb End -->
 
-    <!-- Contact Section Begin -->
-    <section class="contact-section spad">
+    <!--Navigation Bar for Categories-->
+    <header id="blogHeader">
+        <h2>Blog Categories</h2>
+    </header>
+    <nav class="navbar">
+        <div class="card"><a href="1-softw.html" class="tab active">Software Development</a></div>
+        <img src="img/line3.png">
+        <div class="card"><a href="2-ui.html" class="tab">UI/UX Design</a></div>
+        <img src="img/line3.png">
+        <div class="card"><a href="3-code.html" class="tab">Code Tips</a></div>
+        <img src="img/line3.png">
+        <div class="card"><a href="4-cyber.html" class="tab">Cyber Security</a></div>
+    </nav>
+    <!--Navigation Bar for Categories-->
+
+    <!-- Blog Section Begin -->
+    <section class="blog-section spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="contact__text">
-                        <h3>Contact info</h3>
-                        <p>Please feel free to contact us to know more about how our services can assist you</p>
-                        <ul>
-                            <li>
-                                <span class="fa fa-map-marker"></span>
-                                <h5>Address</h5>
-                                <p>Al Sufouh, Knowledge Park, Dubai, United Arab Emirates</p>
-                            </li>
-                            <li>
-                                <span class="fa fa-mobile"></span>
-                                <h5>Contact Number</h5>
-                                <p>00971501234678</p>
-                            </li>
-                            <li>
-                                <span class="fa fa-headphones"></span>
-                                <h5>Email Address</h5>
-                                <p>interweave@gmail.com</p>
-                            </li>
-                        </ul>
-                        <div class="contact__social">
-                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="youtube"><i class="fa fa-youtube-play"></i></a>
-                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <div class="col-lg-12">
+                    <div class="blog-container">
+                        <div class="col-lg-12 col-md-6 col-sm-6">
+                            <div class="blog__item">
+                                <div class="blog__pic set-bg" data-setbg="img/blog/blog-1a.jpg">
+                                    <div class="label">Software Development</div>
+                                </div>
+                                <div class="blog__text">
+                                    <h5><a href="blog-1a.html">How to become a frontend developer</a></h5>
+                                    <ul>
+                                        <li><i class="fa fa-user"></i> Juhanah Madhiyyah</li>
+                                        <li><i class="fa fa-clock-o"></i> January 14, 2024</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-6 col-sm-6">
+                            <div class="blog__item">
+                                <div class="blog__pic set-bg" data-setbg="img/blog/blog-1b.jpeg">
+                                    <div class="label">Software Development</div>
+                                </div>
+                                <div class="blog__text">
+                                    <h5><a href="blog-1b.html">A comprehensive guide to uml diagrams!</a></h5>
+                                    <ul>
+                                        <li><i class="fa fa-user"></i> Juhanah Madhiyyah</li>
+                                        <li><i class="fa fa-clock-o"></i> January 14, 2024</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-6 col-sm-6">
+                            <div class="blog__item">
+                                <div class="blog__pic set-bg" data-setbg="img/blog/blog-1c.jpg">
+                                    <div class="label">Software Development</div>
+                                </div>
+                                <div class="blog__text">
+                                    <h5><a href="blog-1c.html">A Deep Dive into Agile vs. Scrum</a></h5>
+                                    <ul>
+                                        <li><i class="fa fa-user"></i> Juhanah Madhiyyah</li>
+                                        <li><i class="fa fa-clock-o"></i> January 14, 2024</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-8">
-                    <div class="map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.989740339222!2d55.1596459748876!3d25.102208635542578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f638e7ac4f2d3%3A0xec919842ff503d0b!2sHeriot-Watt%20University!5e0!3m2!1sen!2suk!4v1706297485485!5m2!1sen!2suk" 
-                            height="515" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<!--            <div class="col-lg-4">
+                    <div class="blog__sidebar">
+                        <div class="blog__sidebar__item">
+                            <div class="sidebar__title">
+                                <h6>Follow us</h6>
+                            </div>
+                            <div class="sidebar__social">
+                                <a href="https://www.facebook.com/HWUDubai/"><i class="fa fa-facebook"></i></a>
+                                <a href="https://twitter.com/HWUDubai"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/@HeriotWattUniversityDubai"><i class="fa fa-youtube-play"></i></a>
+                                <a href="https://www.instagram.com/hwdubai/"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="blog__sidebar__item">
+                            <div class="sidebar__title">
+                                <h6>Feature posts</h6>
+                            </div>
+                            <div class="sidebar__feature__post">
+                                <div class="sidebar__feature__item">
+                                    <div class="label">Hosting</div>
+                                    <h6><a href="blog-3c.html">10 Coding Tips for Productivity</a></h6>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i> January 14, 2024</li>
+                                    </ul>
+                                </div>
+                                <div class="sidebar__feature__item">
+                                    <div class="label">Guides</div>
+                                    <h6><a href="#">The Best Web Hosting Service with Bitcoin at GeeksHosted</a></h6>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i> Seb 06, 2019</li>
+                                    </ul>
+                                </div>
+                                <div class="sidebar__feature__item">
+                                    <div class="label">Server</div>
+                                    <h6><a href="#">The Best Web Hosting Service with Bitcoin at GeeksHosted</a></h6>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i> Seb 06, 2019</li>
+                                    </ul>
+                                </div>
+                                <div class="sidebar__feature__item">
+                                    <div class="label">Domain</div>
+                                    <h6><a href="#">The Best Web Hosting Service with Bitcoin at GeeksHosted</a></h6>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i> Seb 06, 2019</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog__sidebar__item">
+                            <div class="sidebar__title">
+                                <h6>Blog Post Categories</h6>
+                                <br>  </br>
+                            <div class="category-bubble" id="software-dev">
+                                <a href="1-softw.html" class="selected">Software Dev</a>
+                            </div>
+                            <div class="category-bubble" id="ui-ux-design">
+                                <a href="2-ui.html">UI/UX Design</a>
+                            </div>
+                            <div class="category-bubble" id="code-tips">
+                                <a href="3-code.html">Code Tips</a>
+                            </div>
+                            <div class="category-bubble" id="cyber-security">
+                                <a href="4-cyber.html">Cyber Security</a>
+                            </div>
+                        </div>
+                        <div class="blog__sidebar__item">
+                            <div class="sidebar__subscribe">
+                                <div class="sidebar__title">
+                                    <h6>Subscribe</h6>
+                                </div>
+                                <p>Subscribe now to our Newsletter to get quick updates when we post a new blog!</p>
+                                <form action="https://www.hw.ac.uk/dubai/">
+                                    <input type="text" placeholder="Email">
+                                    <button type="submit" class="site-btn">Subscribe?</button>
+                                </form>
+                            </div>
+                        </div>
+                    -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Contact Section End -->
-
-    <!-- Contact Form Begin -->
-    <!-- <div class="contact-form spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h3>SEND MESSAGE</h3>
-                    <form action="#">
-                        <div class="input-list">
-                            <input type="text" placeholder="Name">
-                            <input type="text" placeholder="Email">
-                            <input type="text" placeholder="Website">
-                        </div>
-                        <textarea placeholder="Question"></textarea>
-                        <button type="submit" class="site-btn">Send question</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Contact Form End -->
+    <!-- Blog Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">
