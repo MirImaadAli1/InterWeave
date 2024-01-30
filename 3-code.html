@@ -7,7 +7,7 @@
     <meta name="keywords" content="Deerhost, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About | InterWeave</title>
+    <title>Blog | InterWeave</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap"
@@ -38,15 +38,15 @@
             <span class="fa fa-times-circle-o"></span>
         </div>
         <div class="offcanvas__logo">
-            <a href="#"><img src="photos/logo-removebg.png" alt=""></a>
+            <a href="#"><img src="img/logo.png" alt=""></a>
         </div>
         <nav class="offcanvas__menu mobile-menu">
             <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li class="active"><a href="./about.html">About</a></li>
+                <li><a href="./about.html">About</a></li>
                 <li><a href="./hosting.html">Portfolio</a></li>
                 <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./blog.html">Blog</a></li>
+                <li class="active"><a href="./blog.html">Blog</a></li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -69,8 +69,8 @@
 
     <!-- Header Section Begin -->
     <header class="header-section header-normal">
-<!--    <div class="header__info">
-            <div class="container">
+        <div class="header__info">
+<!--        <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="header__info-left">
@@ -104,10 +104,10 @@
                     <nav class="header__menu">
                         <ul>
                             <li><a href="./index.html">Home</a></li>
-                            <li class="active"><a href="./about.html">About</a></li>
+                            <li><a href="./about.html">About</a></li>
                             <li><a href="./hosting.html">Portfolio</a></li>
                             <li><a href="./pricing.html">Pricing</a></li>
-                            <li><a href="./blog.html">Blog</a></li>
+                            <li class="active"><a href="./blog.html">Blog</a></li>
                             <li><a href="./contact.html">Contact</a></li>
                         </ul>
                     </nav>
@@ -127,7 +127,7 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb__option">
                         <a href="./index.html"><span class="fa fa-home"></span> Home</a>
-                        <span>About Us</span>
+                        <span>Blog Posts</span>
                     </div>
                 </div>
             </div>
@@ -135,163 +135,155 @@
     </div>
     <!-- Breadcrumb End -->
 
-    <!-- About Section Begin -->
-    <section class="about-section spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="about__img">
-                        <img src="photos/about us photo.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="about__text">
-                        <h2>About Us</h2>
-                        <p>We are a software development company here to make your company visions a reality. We specialise in web and app development. We are ready to take your visions from an idea to a fully efficient website and/or application. We would one-to-one meetings to find out your visions and update regularly on the progress of the product. Our team has skilled software engineers and developers ready to take on any challenge. Our team is highly efficient and will make sure the final product is delivered on time as per your requirement.</p>
-                        <a href="/contact.html" class="primary-btn">Get started now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About Section End -->
+    <!--Navigation Bar for Categories-->
+    <header id="blogHeader">
+        <h2>Blog Categories</h2>
+    </header>
+    <nav class="navbar">
+        <div class="card"><a href="1-softw.html" class="tab">Software Development</a></div>
+        <img src="img/line3.png">
+        <div class="card"><a href="2-ui.html" class="tab">UI/UX Design</a></div>
+        <img src="img/line3.png">
+        <div class="card"><a href="3-code.html" class="tab active">Code Tips</a></div>
+        <img src="img/line3.png">
+        <div class="card"><a href="4-cyber.html" class="tab">Cyber Security</a></div>
+    </nav>
+    <!--Navigation Bar for Categories-->
 
-    <!-- Team Section Begin -->
-    <section class="team-section spad">
+    <!-- Blog Section Begin -->
+    <section class="blog-section spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-8">
-                    <div class="section-title normal-title">
-                        <h3>Meet our team</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="team__item">
-                        <div class="team__pic">
-                            <img src="photos/mesh.jpg" alt="">
+                <div class="col-lg-12">
+                    <div class="blog-container">
+                        <div class="col-lg-12 col-md-6 col-sm-6">
+                            <div class="blog__item">
+                                <div class="blog__pic set-bg" data-setbg="img/blog/blog-3a.jpg">
+                                    <div class="label">Code Tips</div>
+                                </div>
+                                <div class="blog__text">
+                                    <h5><a href="blog-3a.html">Popular programming languages.</a></h5>
+                                    <ul>
+                                        <li><i class="fa fa-user"></i> Rosanne Johny</li>
+                                        <li><i class="fa fa-clock-o"></i> January 14, 2024</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="team__text">
-                            <h5>Mehweesh Kadegaonkar</h5>
-                            <span>Project Manager & UI/UX Designer</span>
+                        <div class="col-lg-12 col-md-6 col-sm-6">
+                            <div class="blog__item">
+                                <div class="blog__pic set-bg" data-setbg="img/blog/blog-3b.jpeg">
+                                    <div class="label">Code Tips</div>
+                                </div>
+                                <div class="blog__text">
+                                    <h5><a href="blog-3b.html">how to become a frontend developer?</a></h5>
+                                    <ul>
+                                        <li><i class="fa fa-user"></i> Rosanne Johny</li>
+                                        <li><i class="fa fa-clock-o"></i> January 14, 2024</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="team__item">
-                        <div class="team__pic">
-                            <img src="photos/imaad.jpg" alt="">
-                        </div>
-                        <div class="team__text">
-                            <h5>Mir Imaad Ali</h5>
-                            <span>Development Manager & Frontend Developer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="team__item">
-                        <div class="team__pic">
-                            <img src="img/team/team-3.jpg" alt="">
-                        </div>
-                        <div class="team__text">
-                            <h5>Daksh Luhana</h5>
-                            <span>Frontend Developer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="team__item">
-                        <div class="team__pic">
-                            <img src="img/team/team-3.jpg" alt="">
-                        </div>
-                        <div class="team__text">
-                            <h5>Binil Johnson</h5>
-                            <span>Frontend Developer</span>
+                        <div class="col-lg-12 col-md-6 col-sm-6">
+                            <div class="blog__item">
+                                <div class="blog__pic set-bg" data-setbg="img/blog/blog-3c.png">
+                                    <div class="label">Code Tips</div>
+                                </div>
+                                <div class="blog__text">
+                                    <h5><a href="blog-3c.html">Efficiency Unleashed: 10 Lesser-Known Coding Tips for Productivity</a></h5>
+                                    <ul>
+                                        <li><i class="fa fa-user"></i> Rosanne Johny</li>
+                                        <li><i class="fa fa-clock-o"></i> January 14, 2024</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="team__item">
-                        <div class="team__pic">
-                            <img src="img/team/team-4.jpg" alt="">
+<!--            <div class="col-lg-4">
+                    <div class="blog__sidebar">
+                        <div class="blog__sidebar__item">
+                            <div class="sidebar__title">
+                                <h6>Follow us</h6>
+                            </div>
+                            <div class="sidebar__social">
+                                <a href="https://www.facebook.com/HWUDubai/"><i class="fa fa-facebook"></i></a>
+                                <a href="https://twitter.com/HWUDubai"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/@HeriotWattUniversityDubai"><i class="fa fa-youtube-play"></i></a>
+                                <a href="https://www.instagram.com/hwdubai/"><i class="fa fa-instagram"></i></a>
+                            </div>
                         </div>
-                        <div class="team__text">
-                            <h5>Mohamed Kamel</h5>
-                            <span>Backend Developer & Software Tester</span>
+                        <div class="blog__sidebar__item">
+                            <div class="sidebar__title">
+                                <h6>Feature posts</h6>
+                            </div>
+                            <div class="sidebar__feature__post">
+                                <div class="sidebar__feature__item">
+                                    <div class="label">Hosting</div>
+                                    <h6><a href="blog-3c.html">10 Coding Tips for Productivity</a></h6>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i> January 14, 2024</li>
+                                    </ul>
+                                </div>
+                                <div class="sidebar__feature__item">
+                                    <div class="label">Guides</div>
+                                    <h6><a href="#">The Best Web Hosting Service with Bitcoin at GeeksHosted</a></h6>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i> Seb 06, 2019</li>
+                                    </ul>
+                                </div>
+                                <div class="sidebar__feature__item">
+                                    <div class="label">Server</div>
+                                    <h6><a href="#">The Best Web Hosting Service with Bitcoin at GeeksHosted</a></h6>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i> Seb 06, 2019</li>
+                                    </ul>
+                                </div>
+                                <div class="sidebar__feature__item">
+                                    <div class="label">Domain</div>
+                                    <h6><a href="#">The Best Web Hosting Service with Bitcoin at GeeksHosted</a></h6>
+                                    <ul>
+                                        <li><i class="fa fa-clock-o"></i> Seb 06, 2019</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="team__item">
-                        <div class="team__pic">
-                            <img src="photos/lukas.jpg" alt="">
+                        <div class="blog__sidebar__item">
+                            <div class="sidebar__title">
+                                <h6>Blog Post Categories</h6>
+                                <br>  </br>
+                            <div class="category-bubble" id="software-dev">
+                                <a href="1-softw.html" class="selected">Software Dev</a>
+                            </div>
+                            <div class="category-bubble" id="ui-ux-design">
+                                <a href="2-ui.html">UI/UX Design</a>
+                            </div>
+                            <div class="category-bubble" id="code-tips">
+                                <a href="3-code.html">Code Tips</a>
+                            </div>
+                            <div class="category-bubble" id="cyber-security">
+                                <a href="4-cyber.html">Cyber Security</a>
+                            </div>
                         </div>
-                        <div class="team__text">
-                            <h5>Lukas Krasnoborov</h5>
-                            <span>Backend Developer</span>
+                        <div class="blog__sidebar__item">
+                            <div class="sidebar__subscribe">
+                                <div class="sidebar__title">
+                                    <h6>Subscribe</h6>
+                                </div>
+                                <p>Subscribe now to our Newsletter to get quick updates when we post a new blog!</p>
+                                <form action="https://www.hw.ac.uk/dubai/">
+                                    <input type="text" placeholder="Email">
+                                    <button type="submit" class="site-btn">Subscribe?</button>
+                                </form>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="team__item">
-                        <div class="team__pic">
-                            <img src="photos/deven.jpg" alt="">
-                        </div>
-                        <div class="team__text">
-                            <h5>Deven Kamal</h5>
-                            <span>Backend Developer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="team__item">
-                        <div class="team__pic">
-                            <img src="img/team/team-4.jpg" alt="">
-                        </div>
-                        <div class="team__text">
-                            <h5>Nikhil Deshpande</h5>
-                            <span>Backend Developer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="team__item">
-                        <div class="team__pic">
-                            <img src="photos/juhannah.jpg" alt="">
-                        </div>
-                        <div class="team__text">
-                            <h5>Juhanah Madhiyyah</h5>
-                            <span>Marketing/Branding</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="team__item">
-                        <div class="team__pic">
-                            <img src="photos/lynn.jpg" alt="">
-                        </div>
-                        <div class="team__text">
-                            <h5>Lynn Rachael Aranha</h5>
-                            <span>Marketing/Branding</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="team__item">
-                        <div class="team__pic">
-                            <img src="img/team/team-3.jpg" alt="">
-                        </div>
-                        <div class="team__text">
-                            <h5>Rosanne Johny</h5>
-                            <span>Software Tester</span>
-                        </div>
+                    -->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Team Section End -->
+    <!-- Blog Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">
