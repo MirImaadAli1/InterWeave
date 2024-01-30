@@ -112,7 +112,6 @@
 
         // Show the corresponding plan category based on the clicked label
         $("." + clickedLabelId + "__plans").addClass('active');
- 
     });
     /*------------------
         Achieve Counter
